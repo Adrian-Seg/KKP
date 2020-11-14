@@ -101,7 +101,7 @@
             <div class="col">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
-                        <div class="card-header" id="headingOne">
+                        <div class="card-header matchBG" id="headingOne">
                             <h2 class="mb-0">
                                 <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse"
                                     data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -121,7 +121,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="card-header" id="headingTwo">
+                        <div class="card-header matchBG" id="headingTwo">
                             <h2 class="mb-0">
                                 <button class="btn btn-link btn-block text-center collapsed" type="button"
                                     data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
@@ -149,6 +149,7 @@
     <!--  -->
     <div class="container pt-5">
         <div class="row d-flex justify-content-center">
+            <div class="col-1"></div>
             <div class="col-5">
                 <p>"You know, I thought I knew everything there is to know about pizza. Boy was I
                     wrong. Tonight I met
@@ -160,16 +161,18 @@
                     have
                     got to try this place."
                 </p>
-                <p>- Carrie D.</p>
+                <p class="d-flex justify-content-end">- Carrie D.</p>
             </div>
             <div class="col-5">
                 <img src="./images/Food4.jpg" height="250px" width="450px">
             </div>
+            <div class="col-1"></div>
         </div>
     </div>
 
     <div class="container py-3">
         <div class="row d-flex justify-content-center">
+            <div class="col-1"></div>
             <div class="col-5">
                 <img src="./images/Food3.jpg" height="250px" width="450px">
             </div>
@@ -182,6 +185,7 @@
                 </p>
                 <p>- Roynell A.</p>
             </div>
+            <div class="col-1"></div>
         </div>
     </div>
     </div>
@@ -189,6 +193,16 @@
     <!--  -->
     <!-- WEBSITE VIDEO HERE -->
     <!--  -->
+    <div class="container-fluid d-flex justify-content-center pb-3">
+        <div class="row">
+            <div class="col">
+                <iframe width="920" height="400" src="https://www.youtube.com/embed/p3qRHC3VFiA" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -196,18 +210,33 @@
     <!--  -->
     <!-- FOOTER HERE -->
     <!--  -->
-    <div class="container-fluid footerBG p-0">
+    <div class="container-fluid footerBG  px-4 pt-2 ">
         <div class="row">
-            <div class="col-3 p-0">
-                <p class="d-flex justify-content-center m-0">Restaurant Hours</p>
-                <p class="hoursText d-flex justify-content-center">MON CLOSED</p>
-                <p class="hoursText d-flex justify-content-center">TUE-THUR 11AM-8PM</p>
-                <p class="hoursText d-flex justify-content-center">FRI-SAT 11AM-9PM</p>
-                <p class="hoursText d-flex justify-content-center">SUN 11AM-8PM</p>
+            <div class="col-3 px-5">
+                <p class="hoursText ">Restaurant Hours</p>
+                <p class="hoursText ">MON CLOSED</p>
+                <p class="hoursText ">TUE-THUR 11AM-8PM</p>
+                <p class="hoursText ">FRI-SAT 11AM-9PM</p>
+                <p class="hoursText ">SUN 11AM-8PM</p>
             </div>
-            <div class="col-3"></div>
-            <div class="col-3"></div>
-            <div class="col-3"></div>
+            <div class="col-3 px-2 d-flex justify-content-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.626839183126!2d-120.84739498469048!3d37.49313137981161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8091064a115dc655%3A0xbb3c445ba87b19ab!2s217%20S%20Golden%20State%20Blvd%2C%20Turlock%2C%20CA%2095380!5e0!3m2!1sen!2sus!4v1605380739627!5m2!1sen!2sus"
+                    width="250" height="110" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0">
+                </iframe>
+            </div>
+            <div class="col-3 px-2 d-flex justify-content-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.626839183126!2d-120.84739498469048!3d37.49313137981161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8091064a115dc655%3A0xbb3c445ba87b19ab!2s217%20S%20Golden%20State%20Blvd%2C%20Turlock%2C%20CA%2095380!5e0!3m2!1sen!2sus!4v1605380739627!5m2!1sen!2sus"
+                    width="250" height="110" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0">
+                </iframe>
+            </div>
+            <div class="col-3 px-5">
+                <p class="findusText d-flex justify-content-end">217 S. Golden State Blvd.</p>
+                <p class="findusText d-flex justify-content-end">Turlock, CA.</p>
+                <p class="findusText d-flex justify-content-end">Telephone: +1(209)524-1985</p>
+                <p class="findusText d-flex justify-content-end">Email: kravingkebabpizza@gmail.com</p>
+            </div>
         </div>
     </div>
 

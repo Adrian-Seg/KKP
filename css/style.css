@@ -3,6 +3,7 @@
 .navBG {
     background-color: #D8C2A2;
     height: 100px;
+    max-width: 100%;
 }
 .navRight {
     display: flex;
@@ -20,12 +21,26 @@
 /* KEBAB PIZZA TEXT BODY */
 
 
+/* ABOUT US */
+h2 {
+    color: black;
+}
+.matchBG {
+    background-color: #D8C2A2;
+}
+
+
 /* FOOTER CSS */
 .footerBG {
     background-color: #D8C2A2;
-    height: 120px;
+    height: 130px;
+    max-width: 100%;
 }
 .hoursText {
-    font-size: 11px;
+    font-size: 13px;
     margin: 01%;
+}
+.findusText {
+    font-size: 15px;
+    margin: 1%
 }
