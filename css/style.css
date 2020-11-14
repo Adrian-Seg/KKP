@@ -21,6 +21,10 @@
 
 
 /* FOOTER CSS */
+.footerBG {
+    background-color: #D8C2A2;
+    height: 120px;
+}
 .hoursText {
     font-size: 11px;
     margin: 01%;
