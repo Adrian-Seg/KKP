@@ -1,5 +1,11 @@
 
 /* NAV CSS */
+body{
+    background-color: lightgray;
+}
+.brown{
+    background-color: #D8C2A2;
+}
 .navBG {
     background-color: #D8C2A2;
     height: 100px;
@@ -40,7 +46,29 @@ h2 {
     font-size: 13px;
     margin: 01%;
 }
+
+
+.blackFont{
+    color: black;
+}
+
+.compress{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.whiteBg{
+    background-color: whitesmoke;
+}
+.storeImg{
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
 .findusText {
     font-size: 15px;
-    margin: 1%
+    margin: 1%;
+
 }
