@@ -7,13 +7,13 @@ let injectHere2 = document.getElementById('injectHere2');
 //Add event listener to form Btn
 
 menuBtn.addEventListener("click", function(){
-    loadData1("../pages/menu.html")
+    loadData1("./pages/menu.html")
     injectHere1.style.display = (injectHere1.style.display == 'block') ? 'none' : 'block';
   
 });
 
 aboutBtn.addEventListener("click", function(){
-    loadData2("../pages/about.html");
+    loadData2("./pages/about.html");
     injectHere2.style.display = (injectHere2.style.display == 'block') ? 'none' : 'block';
 });
 
@@ -43,4 +43,5 @@ function loadData2(url){
     };
     xhttp2.open("GET", url , true);
     xhttp2.send();
+    console.log("GET");
 }
