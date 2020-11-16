@@ -72,3 +72,27 @@ h2 {
     margin: 1%;
 
 }
+#target {
+    height: 400px;
+    width: 600px;
+    padding-top: 20px;
+    border-radius: 4px;
+    position: relative;
+}
+.modal {
+    position: relative;
+}
+.modal-left {
+    margin: 30px;
+}
+.modal-right {
+    margin: 30px;
+    float: right;
+}
+.frenchFriesImg{
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    width: 40%;
+    height: 20%;
+}

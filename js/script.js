@@ -45,3 +45,4 @@ function loadData2(url){
     xhttp2.send();
     console.log("GET");
 }
+
