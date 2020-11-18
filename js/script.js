@@ -22,7 +22,7 @@ function loadData1(url){
     xhttp1.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             // Typical action to be performed when the document is ready:
-            console.log(this.responseText);
+            
             injectHere1.innerHTML = this.responseText;
         }
         
@@ -36,12 +36,12 @@ function loadData2(url){
     xhttp2.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             // Typical action to be performed when the document is ready:
-            console.log(this.responseText);
+            
             injectHere2.innerHTML = this.responseText;
         }
         
     };
     xhttp2.open("GET", url , true);
     xhttp2.send();
-    console.log("GET");
+    
 }
